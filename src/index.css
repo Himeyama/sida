@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  user-select: none;
+  font-family: "Yu Gothic UI" !important;
+  height: 100vh;
+}
+
+.visibled {
+  display: unset !important;
+  transition: .3s;
+}
+
+fluent-menu-item {
+  font-family: "Yu Gothic UI"
+}
+
+#menu-button {
+  display: flex;
+}
+
+#menu-button .menu-button-component{
+  border: 0px;
+  height: 32px;
+  padding: 0 10px;
+  margin-left: 8px;
+  font-family: "Yu Gothic UI";
+  border-radius: 4px;
+  line-height: 32px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#menu-button .menu-button-component:hover{
+  background-color: #EFEFEF;
+}
+
+#menu-button .menu-button-component#button-file {
+  margin-left: 0;
+}
+
+#menu-list .visibled fluent-menu{
+  height: auto;
+}
+
+#menu-list fluent-menu{
+  height: 0;
+  transition: .3s;
+}
+
+.titlebar{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  background-color: #F8F8F8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.drag-area{
+  -webkit-app-region: drag;
+}
+
+.menu{
+  height: 32px;
+  padding: 8px 4px 8px 4px;
+}
+
+#menu-list div{
+  display: none;
+  position: fixed;
+  z-index: 255;
+  top: 44px;
+}
+
+fluent-menu-item{
+  outline: none;
+}
