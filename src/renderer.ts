@@ -1,21 +1,19 @@
 /**
- * This file will automatically be loaded by webpack and run in the "renderer" context.
- * To learn more about the differences between the "main" and the "renderer" context in
- * Electron, visit:
+ * このファイルは自動的に webpack によって読み込まれ、"renderer" コンテキストで実行される
+ * Electron の "main" と "renderer" コンテキストの違いについて詳しく知るには、以下を参照されたい
  *
  * https://electronjs.org/docs/latest/tutorial/process-model
  *
- * By default, Node.js integration in this file is disabled. When enabling Node.js integration
- * in a renderer process, please be aware of potential security implications. You can read
- * more about security risks here:
+ * デフォルトでは、このファイルでは Node.js の統合は無効化される。
+ * レンダラープロセスで Node.js の統合を有効にするときは、潜在的なセキュリティの影響を理解すること。
+ * セキュリティリスクについての詳細は以下のリンクを参照されたい
  *
  * https://electronjs.org/docs/tutorial/security
  *
- * To enable Node.js integration in this file, open up `main.js` and enable the `nodeIntegration`
- * flag:
+ * このファイルで Node.js の統合を有効にするには、`main.js` を開き、`nodeIntegration` フラグを有効にする:
  *
  * ```
- *  // Create the browser window.
+ *  // ブラウザウィンドウを作成
  *  mainWindow = new BrowserWindow({
  *    width: 800,
  *    height: 600,
