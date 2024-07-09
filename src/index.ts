@@ -30,7 +30,7 @@ const createWindow = (): void => {
   mainWindow.loadURL(MAIN_WINDOW_WEBPACK_ENTRY);
 
   // DevTools を開く
-  mainWindow.webContents.openDevTools();
+  // mainWindow.webContents.openDevTools();
 };
 
 // このメソッドは、Electron の初期化が終了し、ブラウザウィンドウを作成する準備ができたときに呼び出される
