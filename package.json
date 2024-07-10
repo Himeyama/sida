@@ -1,7 +1,7 @@
 {
   "name": "sida",
   "productName": "sida",
-  "version": "24.07.10",
+  "version": "24.7.10",
   "description": "My Electron app",
   "main": ".webpack/main",
   "scripts": {
